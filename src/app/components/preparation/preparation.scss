@@ -1,0 +1,40 @@
+.question-table {
+  background-color: #5e5b5b;
+  width: 100%;
+}
+
+.mat-column-position {
+  color: #fff;
+  width: 32px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.mat-column-question,
+.mat-column-answer,
+.mat-column-actions {
+  color: #fff;
+  padding-left: 16px;
+  font-size: 18px;
+}
+
+.mat-column-actions {
+  white-space: nowrap; // Prevents content from wrapping to a new line
+  text-align: right; // Aligns the content to the right of the cell
+
+  button {
+    background-color: #bd258f;
+    color: #fff;
+    margin-right: 8px; // Adds margin to the right of each button
+  }
+
+  button:last-child {
+    background-color: transparent;
+    color: #ce3e3e;
+    margin-right: 0; // Removes margin from the last button
+  }
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}

@@ -1,0 +1,19 @@
+.user-panel {
+  background-color: #801092;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.sign-in-button {
+  background-color: #363131;
+  color: #fff;
+  margin-right: 8px;
+}
